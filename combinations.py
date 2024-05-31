@@ -66,7 +66,7 @@ import sys
 def main():
 
 	### choose whether to load or calculate data
-	load_data = True
+	load_data = False
 	saveFile = './supercells.pkl'
 	loadFile = './supercells.pkl'
 
@@ -151,6 +151,7 @@ def main():
 	s = 0
 
 	### print basic search results
+	print()
 	print(f"{len(areasA)} supercells found")
 	print(f"{len(areasC)} clusters identified")
 
@@ -180,7 +181,7 @@ def main():
 	print(f"{enrgsC[s,0]:1.2f} mEv/atom")
 	print("\nNormal Strain: \tShear Strain:")
 	print(f"{enrgsC[s,1]*100:1.2f} % \t\t\t{enrgsC[s,2]*100:1.2f} %")
-
+	print()
 
 	# Plot the vectors with custom colors
 	plt.figure('Lattices',figsize=(8, 6))
@@ -194,7 +195,7 @@ def main():
 	plt.show()
 
 ################################################################################
-### Calculation Manager Functions
+### Calculation Managers
 
 ### searches combinatorial space for best supercell
 def search(ec, gLvec, pLvec, g_max, p_max, max_area, max_normal, max_shear, max_find):

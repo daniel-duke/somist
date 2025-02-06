@@ -46,10 +46,10 @@ import sys
 #              [ area increase from uniform biaxial expansion / unit cell area * 100 ]
 # ec_normalC = [ energy increase (meV) / atom ] /
 #              [ area increase from uniform biaxial compression / unit cell area * 100 ]
-# ec_shearP = [ energy increase (meV) / atom ] /
-# 			  [ simple shear strain parallel to x axis * 100 ]
-# ec_shearD = [ energy increase (meV) / atom ] /
-# 			  [ simple shear strain parallel to x=y line (the xy plane diagonal) * 100 ]
+# ec_shearP =  [ energy increase (meV) / atom ] /
+# 			   [ simple shear strain parallel to x axis * 100 ]
+# ec_shearD =  [ energy increase (meV) / atom ] /
+# 			   [ simple shear strain parallel to x=y line (the xy plane diagonal) * 100 ]
 
 ### Output Variables
 # areas - supercell areas

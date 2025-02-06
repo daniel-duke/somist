@@ -1,8 +1,6 @@
 ### Author: Daniel Duke
 ### Last updated: 4/5/24
 
-test words
-
 import numpy as np
 from scipy.linalg import sqrtm
 import matplotlib.pyplot as plt

@@ -1,2 +1,4 @@
 # SOMIST (Supercell Optimization through Minimizing Strain)
-Given two unit cells and their strain responses, this code finds the supercell that places the minimum amount of strain on the system.
+Inputs: two units cells and their strain responses.
+Output: supercell that places the minimumj amount of strain on the materials.
+See the main script (combinations.py) for a detailed description of the code inputs and outputs.

@@ -11,8 +11,8 @@ import sys
 # this script searches the combinatorial space to find the optimum commensurate supercell 
   # between two materials given their lattice vectors (Lvec) in the plane of contact and the
   # strain constants (ec_normal, ec_shearP, ec_shearD) of the material to be strained.
-# this method assumes the relative orientation between the two lattices is irrelevnt. 
-# because the program assumes only one material is strained, the elastic constants are only
+# this method assumes the relative orientation between the two lattices is irrelevent. 
+# because the code assumes only one material is strained, the elastic constants are only
   # required for the one (strained) material; see elasic constant descriptions below.
 # as mentioned above, the shear elastic response is defined by two constants: ec_shearP 
   # (for parallel to x axis) and ec_sheaerD (for diagonal between x and y axes); the code
@@ -450,6 +450,7 @@ def printMatrix(M,type):
 		print("\t]")
 
 
-### run program
-main()
+### run the script
+if __name__ == "__main__":
+	main()
 
